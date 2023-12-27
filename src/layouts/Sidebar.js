@@ -58,6 +58,11 @@ const navigation = [
     href: "/about",
     icon: "bi bi-people",
   },
+  {
+    title: "Temp",
+    href: "/temp",
+    icon: "bi bi-people",
+  },
 ];
 
 const Sidebar = () => {
@@ -96,15 +101,6 @@ const Sidebar = () => {
               </Link>
             </NavItem>
           ))}
-          <Button
-            color="danger"
-            tag="a"
-            target="_blank"
-            className="mt-3"
-            href="https://www.wrappixel.com/templates/ample-react-dashboard/?ref=33"
-          >
-            Upgrade To Pro
-          </Button>
         </Nav>
       </div>
     </div>

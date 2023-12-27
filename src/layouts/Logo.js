@@ -3,9 +3,19 @@ import { Link } from "react-router-dom";
 
 const Logo = () => {
   return (
-    <Link to="/">
-      <LogoDark />
+    <Link
+      to="/"
+      style={{
+        textDecorationLine: "none",
+        fontFamily: "cursive",
+        fontSize: "20px",
+      }}
+    >
+      <div>AllergyMapData</div>
     </Link>
+    // <Link to="/">
+    //   <LogoDark />
+    // </Link>
   );
 };
 

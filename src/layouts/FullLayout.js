@@ -17,7 +17,7 @@ const FullLayout = () => {
           {/********header**********/}
           <Header />
           {/********Middle Content**********/}
-          <Container className="p-4 wrapper" fluid>
+          <Container className="p-0 wrapper" fluid>
             <Outlet />
           </Container>
         </div>
